@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script src="app.js" defer></script>
+		<title>Frontend Mentor | Interactive pricing component</title>
+	</head>
+	<body>
+		<header class="header">
+			<h1 class="title">Simple, traffic-based pricing</h1>
+			<p class="subtitle">
+				Sign-up for our 30-day trial. No credit card required.
+			</p>
+		</header>
+		<main class="main">
+			<section class="section">
+				<div class="price">
+					<p class="views"><span class="views-js">100K</span> Pageviews</p>
+					<p class="price-text">
+						<span class="every-few-js">$16.00 </span>&nbsp; / month
+					</p>
+				</div>
+				<div class="range-container">
+					<input
+						type="range"
+						class="range"
+						role="slider"
+						step="25"
+						max="100"
+						min="0"
+						value="50"
+					/>
+				</div>
+				<div class="every-few">
+					<p class="every-text">Monthly Billing</p>
+					<label class="switch">
+						<input type="checkbox" role="checkbox" class="checkbox" />
+						<span class="slider round"></span>
+					</label>
+
+					<p class="every-text">
+						Yearly Billing
+
+						<span class="every-discount">
+							-25%
+							<span class="every-discount--responsive">discount</span></span
+						>
+					</p>
+				</div>
+				<div class="advantages">
+					<div class="container-advantages">
+						<article class="article">
+							<img src="images/icon-check.svg" alt="Enjoy our advantages" />
+							<h4 class="advatages-text">Unlimited websites</h4>
+						</article>
+						<article class="article">
+							<img src="images/icon-check.svg" alt="Enjoy our advantages" />
+							<h4 class="advatages-text">100% data ownership</h4>
+						</article>
+						<article class="article">
+							<img src="images/icon-check.svg" alt="Enjoy our advantages" />
+							<h4 class="advatages-text">Email reports</h4>
+						</article>
+					</div>
+					<a href="#" class="trial">Start my trial</a>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
