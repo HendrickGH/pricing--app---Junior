@@ -32,17 +32,19 @@
 					<input
 						type="range"
 						class="range"
-						role="slider"
 						step="25"
 						max="100"
 						min="0"
 						value="50"
+						aria-valuemax="100"
+						aria-valuemin="100"
+						aria-valuenow="50"
 					/>
 				</div>
 				<div class="every-few">
 					<p class="every-text">Monthly Billing</p>
 					<label class="switch">
-						<input type="checkbox" role="checkbox" class="checkbox" />
+						<input type="checkbox" class="checkbox" aria-checked="false" />
 						<span class="slider round"></span>
 					</label>
 
